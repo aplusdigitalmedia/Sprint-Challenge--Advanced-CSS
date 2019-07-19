@@ -2,12 +2,18 @@
 
 .home {
 
+
   .intro {
 
     h2 {
       padding: 15px;
     }
-
+    @media @phone{
+      .intro {
+        display: flex;
+        flex-direction: column;
+      }
+    }
     p {
       padding:0 15px;
     }
@@ -71,6 +77,11 @@
         height: auto;
         border-radius: 10px;
       }
+    }
+  }
+  @media @phone{
+    body {
+      background-color: blue;
     }
   }
 }// home
