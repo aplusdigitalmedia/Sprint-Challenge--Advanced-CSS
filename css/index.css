@@ -1,3 +1,14 @@
+.navStyle {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -240,7 +251,7 @@ footer {
   background-color: #23293B;
   border-radius: 8px;
   font-size: 2rem;
-  color: white;
+  color: #F6F6F6;
   justify-content: center;
   padding-top: 5px;
 }
