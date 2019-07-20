@@ -254,6 +254,7 @@ footer {
   .home .walk {
     display: flex;
     flex-direction: column-reverse;
+    padding: 10px;
   }
 }
 .home .walk .walk-text {
