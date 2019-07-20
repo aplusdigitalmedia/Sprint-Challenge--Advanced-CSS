@@ -1,3 +1,9 @@
+.alinks {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: #454A59;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

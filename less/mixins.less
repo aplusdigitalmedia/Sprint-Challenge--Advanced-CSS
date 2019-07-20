@@ -16,7 +16,7 @@
     }
 
 }
-.navStyle(@justify){
+.navStyle(@justify, @align){
     color: #22283B;
     background: #f4f4f4;
     padding: 20px;
@@ -24,6 +24,12 @@
     border-radius: 10px;
     display: flex;
     justify-content: @justify;
-    align-items: center;
+    align-items: @align;
     flex-flow: column wrap;
+}
+.alinks {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: @river-bend; 
 }
